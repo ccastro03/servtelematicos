@@ -1,0 +1,14 @@
+$ORIGIN 50.168.192.in-addr.arpa.
+$TTL 3H
+@	IN  SOA  www.nuevoservicios.com. root@nuevoservicios.com. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+@	IN  NS   www.nuevoservicios.com.
+
+;host en la zona
+
+3      IN  PTR  www.nuevoservicios.com.
+www    IN  A    192.168.50.4
